@@ -1,0 +1,20 @@
+#com-shop .btn-primary{ 
+	color:@btn-primary-color@;
+}
+
+#com-shop .btn-primary:hover,
+#com-shop .btn-primary:active,
+#com-shop .btn-primary.active,
+#com-shop .btn-primary.disabled,
+#com-shop .btn-primary[disabled] {
+	color:@btn-primary-hover-text-color@;
+}
+#com-shop .btn-primary {
+font-family:@btn-primary-font-family@;
+}
+#com-shop .btn-primary {
+font-size:@btn-primary-font-size@px;
+}
+#com-shop .btn-small {
+    padding: @btn-primary-height-size@px @btn-primary-width-size@px !important;
+}
